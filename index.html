@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>Jack Minave</title>
+	</head>
+	<style>
+body {
+	background-color: #272727;
+	padding: 10px;
+ margin: 10px;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+}
+.terminal {
+	width: 100%;
+ height: 100%;
+ box-sizing: border-box;
+}
+.terminal > .menu {
+	background-color: #ccc;
+	margin: 0px 10px;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+.terminal > .screen {
+ background-color: #151515;
+ margin: 0px 10px;
+ padding: 10px 10px 100px 10px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+.terminal > .menu > ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 5px;
+}
+.terminal > .menu > ul li {
+	float: left;
+	margin: 2px;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;	
+}
+.terminal > .menu > ul li a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+.red {
+	background-color: #ff3b47;
+	border: 1px solid #9d252b;
+}
+.yellow {
+ background-color: #ffc100;
+ border: 1px solid #9d802c;
+}
+.green {
+ background-color: #00d742;
+ border: 1px solid #049931;
+}
+.terminal > .screen pre, p {
+	color: #fff;
+	margin-bottom: 5px;
+}
+/*.terminal > .screen p {
+	color: #fff;
+	overflow: hidden;
+	border-right: .15em solid orange;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	text-align: center;
+	animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; 
+}
+@keyframes typing { from { width: 0 } to { width: 100% } }
+@keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: orange; } }
+*/
+	</style>
+<body>
+	<div class="terminal">
+		<div class="menu">
+			<ul>
+				<li class="red"><a href="#"></a></li>
+				<li class="yellow"><a href="#"></a></li>
+				<li class="green"><a href="#"></a></li>
+			</ul>
+		</div>
+		<div class="screen">
+			<pre>Welcome!</pre>
+			<pre>$ uname</pre>
+			<pre>Jack Minave</pre>
+			<pre>$ _</pre>
+		</div>
+ </div>
+</body>
+</html>
